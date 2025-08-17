@@ -24,8 +24,9 @@ public class MathQuiz {
         int modulus = num1%num2;
 
         //TERNARY OPERATOR WEEK5_2 & WEEK4_2
-        System.out.println(num1 + " + " +  num2 + " = " + userMOD + ((modulus == userMOD)? " is true "  :  "is false " ));
+        System.out.println(num1 + " % " +  num2 + " = " + userMOD + ((modulus == userMOD)? " is true "  :  "is false " ));
 
         input.close();
     }
 }
+
